@@ -1,0 +1,162 @@
+
+td {
+  width: 10%;
+  position: relative;
+}
+td:after {
+  content: '';
+  display: block;
+  margin-top: 100%;
+}
+
+td .content {
+  position: absolute;
+  top:0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin:auto;
+  font-size:30px;
+  text-align:center;
+  padding:5px;
+}
+
+.navbar-header {
+    float: left;
+    padding: 15px;
+    text-align: center;
+    width: 100%;
+}
+
+.navbar-brand {
+	float:none;
+}
+
+.footer {
+	position: relative;
+	height: 150px;
+	clear:both;
+	padding-top:20px;
+	text-align:center;
+	margin: 20px;
+	box-shadow: 0 -5px 3px -5px #333;
+} 
+
+.box {
+	
+}
+
+.black-bg{
+	background:#888888;
+	color:#fff;
+}
+
+.black-pawn{
+	background-image: url('../images/black-pawn.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:47%;
+	background-position: bottom center;
+}
+
+.black-rook{
+	background-image: url('../images/black-rook.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:50%;
+	background-position: bottom center;
+}
+
+.black-bishop{
+	background-image: url('../images/black-bishop.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:60%;
+	background-position: bottom center;
+}
+
+.black-knight{
+	background-image: url('../images/black-knight.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:60%;
+	background-position: bottom center;
+}
+
+.black-queen{
+	background-image: url('../images/black-queen.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:43%;
+	background-position: bottom center;
+}
+
+.black-king{
+	background-image: url('../images/black-king.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:60%;
+	background-position: bottom center;
+}
+
+/* White Piece Styles */
+.white-pawn{
+	background-image: url('../images/white-pawn.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:47%;
+	background-position: bottom center;
+}
+
+.white-rook{
+	background-image: url('../images/white-rook.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:50%;
+	background-position: bottom center;
+}
+
+.white-bishop{
+	background-image: url('../images/white-bishop.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:60%;
+	background-position: bottom center;
+}
+
+.white-knight{
+	background-image: url('../images/white-knight.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:60%;
+	background-position: bottom center;
+}
+
+.white-queen{
+	background-image: url('../images/white-queen.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:43%;
+	background-position: bottom center;
+}
+
+.white-king{
+	background-image: url('../images/white-king.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-size:60%;
+	background-position: bottom center;
+}
+
+.alert{
+	width:50%;
+	line-height:8px;
+	text-align:center;
+	float:right;
+	margin-bottom:0;
+}
+
+.mybtn{
+	width:50%;
+	line-height:26px;
+}
